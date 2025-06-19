@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6322B9422BB13B5000324449 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6322B9442BB13B5000324449 /* Localizable.strings */; };
+		6325F8C92BB0C82400CD449E /* StickAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325F8C82BB0C82400CD449E /* StickAppDelegate.m */; };
+		6325F8CC2BB0C82400CD449E /* StickDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325F8CB2BB0C82400CD449E /* StickDocument.m */; };
+		6325F8CF2BB0C82400CD449E /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6325F8CD2BB0C82400CD449E /* Document.xib */; };
+		6325F8D12BB0C82500CD449E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6325F8D02BB0C82500CD449E /* Assets.xcassets */; };
+		6325F8D42BB0C82500CD449E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6325F8D22BB0C82500CD449E /* MainMenu.xib */; };
+		6325F8D72BB0C82500CD449E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325F8D62BB0C82500CD449E /* main.m */; };
+		6325F8E02BB0CD3700CD449E /* StickColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325F8DF2BB0CD3700CD449E /* StickColoredView.m */; };
+		63363BA82BB285900054F657 /* StickWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 63363BA72BB285900054F657 /* StickWindow.m */; };
+		63363BAB2BB28BA40054F657 /* StickTitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63363BAA2BB28BA40054F657 /* StickTitleBarView.m */; };
+		63363BAD2BB325BB0054F657 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 63363BAC2BB325BB0054F657 /* Credits.rtf */; };
+		63363BCF2BB35F630054F657 /* StickTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63363BCD2BB35F630054F657 /* StickTitleButton.m */; };
+		63F197522C35FC1D0024560E /* StickTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F197512C35FC1D0024560E /* StickTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6322B9432BB13B5000324449 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6325F8C42BB0C82400CD449E /* Stuckery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stuckery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6325F8C72BB0C82400CD449E /* StickAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickAppDelegate.h; sourceTree = "<group>"; };
+		6325F8C82BB0C82400CD449E /* StickAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickAppDelegate.m; sourceTree = "<group>"; };
+		6325F8CA2BB0C82400CD449E /* StickDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickDocument.h; sourceTree = "<group>"; };
+		6325F8CB2BB0C82400CD449E /* StickDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickDocument.m; sourceTree = "<group>"; };
+		6325F8CE2BB0C82400CD449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		6325F8D02BB0C82500CD449E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6325F8D32BB0C82500CD449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6325F8D52BB0C82500CD449E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6325F8D62BB0C82500CD449E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6325F8D82BB0C82500CD449E /* Stick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stick.entitlements; sourceTree = "<group>"; };
+		6325F8DE2BB0CD3700CD449E /* StickColoredView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickColoredView.h; sourceTree = "<group>"; };
+		6325F8DF2BB0CD3700CD449E /* StickColoredView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickColoredView.m; sourceTree = "<group>"; };
+		6325F8E12BB0CF6C00CD449E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		63363BA62BB285900054F657 /* StickWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickWindow.h; sourceTree = "<group>"; };
+		63363BA72BB285900054F657 /* StickWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickWindow.m; sourceTree = "<group>"; };
+		63363BA92BB28BA40054F657 /* StickTitleBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickTitleBarView.h; sourceTree = "<group>"; };
+		63363BAA2BB28BA40054F657 /* StickTitleBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickTitleBarView.m; sourceTree = "<group>"; };
+		63363BAC2BB325BB0054F657 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		63363BCD2BB35F630054F657 /* StickTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickTitleButton.m; sourceTree = "<group>"; };
+		63363BCE2BB35F630054F657 /* StickTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickTitleButton.h; sourceTree = "<group>"; };
+		63F197502C35FC1D0024560E /* StickTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickTextView.h; sourceTree = "<group>"; };
+		63F197512C35FC1D0024560E /* StickTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6325F8C12BB0C82400CD449E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6325F8BB2BB0C82400CD449E = {
+			isa = PBXGroup;
+			children = (
+				6325F8E12BB0CF6C00CD449E /* README.md */,
+				6325F8C62BB0C82400CD449E /* Stick */,
+				6325F8C52BB0C82400CD449E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6325F8C52BB0C82400CD449E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6325F8C42BB0C82400CD449E /* Stuckery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6325F8C62BB0C82400CD449E /* Stick */ = {
+			isa = PBXGroup;
+			children = (
+				6325F8D02BB0C82500CD449E /* Assets.xcassets */,
+				63363BAC2BB325BB0054F657 /* Credits.rtf */,
+				6325F8CD2BB0C82400CD449E /* Document.xib */,
+				6325F8D52BB0C82500CD449E /* Info.plist */,
+				6322B9442BB13B5000324449 /* Localizable.strings */,
+				6325F8D62BB0C82500CD449E /* main.m */,
+				6325F8D22BB0C82500CD449E /* MainMenu.xib */,
+				6325F8D82BB0C82500CD449E /* Stick.entitlements */,
+				6325F8C72BB0C82400CD449E /* StickAppDelegate.h */,
+				6325F8C82BB0C82400CD449E /* StickAppDelegate.m */,
+				6325F8DE2BB0CD3700CD449E /* StickColoredView.h */,
+				6325F8DF2BB0CD3700CD449E /* StickColoredView.m */,
+				6325F8CA2BB0C82400CD449E /* StickDocument.h */,
+				6325F8CB2BB0C82400CD449E /* StickDocument.m */,
+				63F197502C35FC1D0024560E /* StickTextView.h */,
+				63F197512C35FC1D0024560E /* StickTextView.m */,
+				63363BA92BB28BA40054F657 /* StickTitleBarView.h */,
+				63363BAA2BB28BA40054F657 /* StickTitleBarView.m */,
+				63363BCE2BB35F630054F657 /* StickTitleButton.h */,
+				63363BCD2BB35F630054F657 /* StickTitleButton.m */,
+				63363BA62BB285900054F657 /* StickWindow.h */,
+				63363BA72BB285900054F657 /* StickWindow.m */,
+			);
+			path = Stick;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6325F8C32BB0C82400CD449E /* Stuckery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6325F8DB2BB0C82500CD449E /* Build configuration list for PBXNativeTarget "Stuckery" */;
+			buildPhases = (
+				6325F8C02BB0C82400CD449E /* Sources */,
+				6325F8C12BB0C82400CD449E /* Frameworks */,
+				6325F8C22BB0C82400CD449E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stuckery;
+			productName = Stick;
+			productReference = 6325F8C42BB0C82400CD449E /* Stuckery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6325F8BC2BB0C82400CD449E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6325F8C32BB0C82400CD449E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6325F8BF2BB0C82400CD449E /* Build configuration list for PBXProject "Stuckery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6325F8BB2BB0C82400CD449E;
+			productRefGroup = 6325F8C52BB0C82400CD449E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6325F8C32BB0C82400CD449E /* Stuckery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6325F8C22BB0C82400CD449E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63363BAD2BB325BB0054F657 /* Credits.rtf in Resources */,
+				6325F8D12BB0C82500CD449E /* Assets.xcassets in Resources */,
+				6322B9422BB13B5000324449 /* Localizable.strings in Resources */,
+				6325F8CF2BB0C82400CD449E /* Document.xib in Resources */,
+				6325F8D42BB0C82500CD449E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6325F8C02BB0C82400CD449E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F197522C35FC1D0024560E /* StickTextView.m in Sources */,
+				63363BA82BB285900054F657 /* StickWindow.m in Sources */,
+				6325F8CC2BB0C82400CD449E /* StickDocument.m in Sources */,
+				6325F8D72BB0C82500CD449E /* main.m in Sources */,
+				63363BAB2BB28BA40054F657 /* StickTitleBarView.m in Sources */,
+				6325F8C92BB0C82400CD449E /* StickAppDelegate.m in Sources */,
+				6325F8E02BB0CD3700CD449E /* StickColoredView.m in Sources */,
+				63363BCF2BB35F630054F657 /* StickTitleButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6322B9442BB13B5000324449 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6322B9432BB13B5000324449 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6325F8CD2BB0C82400CD449E /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6325F8CE2BB0C82400CD449E /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		6325F8D22BB0C82500CD449E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6325F8D32BB0C82500CD449E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6325F8D92BB0C82500CD449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6325F8DA2BB0C82500CD449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6325F8DC2BB0C82500CD449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stick/Stick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stick/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Stick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		6325F8DD2BB0C82500CD449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stick/Stick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stick/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Stick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6325F8BF2BB0C82400CD449E /* Build configuration list for PBXProject "Stuckery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6325F8D92BB0C82500CD449E /* Debug */,
+				6325F8DA2BB0C82500CD449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6325F8DB2BB0C82500CD449E /* Build configuration list for PBXNativeTarget "Stuckery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6325F8DC2BB0C82500CD449E /* Debug */,
+				6325F8DD2BB0C82500CD449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6325F8BC2BB0C82400CD449E /* Project object */;
+}

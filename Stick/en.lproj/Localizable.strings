@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  Stick
+
+  Created by David Phillip Oster on 3/24/24. Apache License. Apache License.
+
+*/
+
+// Color menu item name
+"Blue" = "Blue";
+
+// Color menu item name
+"Green" = "Green";
+
+// Color menu item name
+"Pink" = "Pink";
+
+// Color menu item name
+"Purple" = "Purple";
+
+// Color menu item name
+"Yellow" = "Yellow";
+
+// View Menu
+"Hide Title Bar" = "Hide Title Bar";
+"Show Title Bar" = "Show Title Bar";
