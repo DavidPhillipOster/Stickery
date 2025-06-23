@@ -12,6 +12,12 @@ and set your development team. Both settings are in Xcode's Signing&Capabilities
 
 Or you can grab the signed executable .zip file from [Releases](https://github.com/DavidPhillipOster/Stickery/releases) on this github page and unzip it.
 
+## Hints:
+
+* I keep my account organized by putting all my Stuckery documents in the same folder. 
+
+* You'll find Stuckery more satisfying to use if, in Apple's **System Settings** > **Desktop&Dock** > the checkbox **Close Windows when quitting an application** is set to **off** That way, when you start Stuckery you'll get the same set of documents each time.
+
 ## Todo:
 - basically done.
 - worth translating to Swift?
