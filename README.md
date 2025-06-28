@@ -35,6 +35,7 @@ Or you can grab the signed executable .zip file from [Releases](https://github.c
 * Print commands removed from menu bar.
 * reopening a previously closed sticky restores the size (but not the position)
 * window titlebar buttons inherit from NSButton.
+* title bar with a proxy icon, command-click for file path menu
 
 
 ## Learning:
@@ -60,6 +61,7 @@ Unobvious things I had to figure out how to do to write this.
 
 1.0.5 Remove background color of text pasted in.
 
+1.0.6 Reopen previous windows on start.
 
 ## License
 

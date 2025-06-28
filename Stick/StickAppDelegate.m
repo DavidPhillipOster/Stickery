@@ -22,6 +22,7 @@ static NSMenuItem *ItemHasTag(NSArray<NSMenuItem *> *a, int tag){
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
   [self setupColorMenu];
+  [NSUserDefaults.standardUserDefaults setBool:YES forKey:@"NSQuitAlwaysKeepsWindows"];
 }
 
 - (BOOL)applicationSupportsSecureRestorableState:(NSApplication *)app {
